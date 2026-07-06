@@ -10,7 +10,7 @@ Expires: 7 January 2027                                       Salesforce
 
 
              Domain Control Validation for DNS Delegations
-      draft-nygren-dnsop-domain-verification-for-delegation-latest
+         draft-nygren-dnsop-domain-delegation-validation-latest
 
 Abstract
 
@@ -37,11 +37,11 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://enygren.github.io/draft-nygren-dnsop-domain-verification-for-
-   delegation/draft-nygren-dnsop-domain-verification-for-
-   delegation.html.  Status information for this document may be found
-   at https://datatracker.ietf.org/doc/draft-nygren-dnsop-domain-
-   verification-for-delegation/.
+   https://enygren.github.io/draft-nygren-dnsop-domain-delegation-
+   validation/draft-nygren-dnsop-domain-delegation-validation.html.
+   Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-nygren-dnsop-domain-
+   delegation-validation/.
 
    Discussion of this document takes place on the Domain Name System
    Operations Working Group mailing list (mailto:dnsop@ietf.org), which
@@ -49,8 +49,8 @@ About This Document
    Subscribe at https://www.ietf.org/mailman/listinfo/dnsop/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/enygren/draft-nygren-dnsop-domain-verification-
-   for-delegation.
+   https://github.com/enygren/draft-nygren-dnsop-domain-delegation-
+   validation.
 
 Status of This Memo
 

@@ -31,6 +31,11 @@ author:
     organization: Akamai Technologies
     email: erik+ietf@nygren.org
 
+ -
+    ins: S. Huque
+    name: Shumon Huque
+    organization: Salesforce
+    email: shuque@gmail.com
 
 normative:
 

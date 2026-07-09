@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-07-07T01:50:09.870439+00:00",
+  "timestamp": "2026-07-09T01:29:45.493761+00:00",
   "repo": "enygren/draft-nygren-dnsop-domain-delegation-validation",
   "labels": [
     {
@@ -49,6 +49,39 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOTOQqMs8AAAABH-uD5Q",
+      "title": "Address chicken-and-egg problem with registry validating authorities",
+      "url": "https://github.com/enygren/draft-nygren-dnsop-domain-delegation-validation/issues/1",
+      "state": "OPEN",
+      "author": "enygren",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "From Patrick Mevzek https://framapiaf.org/@pmevzek/116879630016163600\n\n> The problem is that some parents do verify the delegation or more precisely do check the nameservers selected are properly configured for the zone BEFORE putting in place the delegation. Which means the extra \"validating\" nameserver must be configured to reply correctly for requests on the zone. So either need to be configured to reply to any zone (not ideal) or needs to know the zone in advance.\n\n\nThis seems like a legitimate concern we should call out.  I'm not sure how we address it.",
+      "createdAt": "2026-07-07T16:45:32Z",
+      "updatedAt": "2026-07-07T16:45:32Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOTOQqMs8AAAABH-ui2Q",
+      "title": "Stalled validations creating lame delegation",
+      "url": "https://github.com/enygren/draft-nygren-dnsop-domain-delegation-validation/issues/2",
+      "state": "OPEN",
+      "author": "enygren",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "In the validation workflow, there's a risk that creating the validation NS records and then not provisioning the zone has the effect of creating a lame delegation by itself.  We should call out this risk explicitly.\n",
+      "createdAt": "2026-07-07T16:46:44Z",
+      "updatedAt": "2026-07-07T16:46:44Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
